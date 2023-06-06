@@ -1,15 +1,16 @@
 "use client"; // This is a client component 👈🏽
 import "../styles/navbar.css";
 import { useState } from "react";
+import logoNav from "../../../public/assets/images/logo.png"
+import Image from 'next/image';
+
 
 function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
     <nav className="navigation">
-      <a href="/" className="brand-name">
-        Oxygen
-      </a>
+      <Image src={logoNav} alt="Oxygen" className="brand-name" />
       <button
         className="hamburger"
         onClick={() => {
@@ -48,7 +49,7 @@ function Navbar() {
           </li>
           
           <li>
-            <a href="/comprar">Comprar</a>
+            <a href="/comprar" style={{color: "black"}} >Comprar</a>
           </li>
         </ul>
       </div>
