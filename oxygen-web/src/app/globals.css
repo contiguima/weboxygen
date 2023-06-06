@@ -11,3 +11,7 @@
     --montserrat: "Montserrat", serif;
     --dm-sans: "DM Sans", serif;
   }
+
+  body{
+    margin:0;
+  }

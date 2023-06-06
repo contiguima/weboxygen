@@ -1,0 +1,56 @@
+.layoutHome{
+    display: flex;
+    padding: 3em;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 500px;
+    background-image: url("../../../public/assets/images/ImgMainPage.png");
+
+}
+
+.layoutHome h1{
+    font-family: var(--dm-sans);
+    color: var(--white);
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 0.5em;
+}
+
+.layoutHome h3{
+    font-family: var(--montserrat);
+    color: var(--white);
+    font-size: 30px;
+   font-weight: 400;
+   line-height: 1.3em;
+}
+
+.layoutHome button{
+    max-width: 150px;
+    padding: 1em;
+    border-radius: 40px;
+    border:0;
+    background-color: var(--strong-green);
+    color: var(--white);
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.layoutHome button:hover{
+    cursor:pointer;
+    background-color: #56A49E;
+}
+
+.dataBoard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--white);
+    margin: 4em;
+    padding: 1em;
+    background: rgba(198, 189, 189, 0.4);
+background-blend-mode: hard-light;
+border-radius: 20px;
+gap: 1em;
+
+}
