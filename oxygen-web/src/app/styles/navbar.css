@@ -80,7 +80,7 @@
       flex-direction: column;
       width: 100%;
       height: calc(100vh - 77px);
-      background-color: var(--white);
+      background-color: var(--grey);
     }
     .navigation-menu li {
       text-align: center;
@@ -94,5 +94,9 @@
     }
     .navigation-menu li:hover {
       background-color: var(--strong-green);
+    }
+
+    .brand-name{
+      max-width: 300px;
     }
 }

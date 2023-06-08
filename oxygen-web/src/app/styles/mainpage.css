@@ -13,7 +13,8 @@
     color: var(--white);
     font-size: 60px;
     font-weight: 500;
-    line-height: 0.5em;
+    line-height: 1em;
+    padding-top: 0.8em;
 }
 
 .layoutHome h3{
@@ -51,6 +52,47 @@
     background: rgba(198, 189, 189, 0.4);
 background-blend-mode: hard-light;
 border-radius: 20px;
-gap: 1em;
+gap: 4em;
+flex-wrap: wrap;
 
+}
+
+.dataContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.dataContent p{
+    padding: 6px;
+    
+}
+
+.dataNumber{
+    font-size: 24px;
+
+}
+
+
+.dataBoardLine{
+    background-color: var(--white);
+    width: 3px;
+    height: 4em;
+    padding-top: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .dataBoardLine{
+        display: none;
+    }
+
+    .dataBoard{
+        padding: 0.2em;
+        margin: 2em;
+        gap: 0.5em;
+    }
+
+    .dataContent p{
+        padding: 2px;
+        font-size: 20px;
+    }
 }

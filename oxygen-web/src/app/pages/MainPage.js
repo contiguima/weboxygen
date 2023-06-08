@@ -11,12 +11,21 @@ const MainPage = () => {
             <button >Comenzá</button>
 
             <div className="dataBoard">
-                <p><strong>133.150</strong> hectareas de bosque</p>
+                <div className="dataContent">
+                <p className="dataNumber"><strong>133.150</strong></p>
+                <p>hectareas <br/> de bosque</p>
+                </div>
                 <div className="dataBoardLine"></div>
-                <p><strong>133.150</strong> hectareas de bosque</p>
+                <div className="dataContent">
+                <p className="dataNumber"><strong>190.214</strong></p>
+                <p>estadios <br/> de fútbol</p>
+                </div>
                 <div className="dataBoardLine"></div>
-                <p><strong>133.150</strong> hectareas de bosque</p>
-                <div className="dataBoardLine"></div>
+                <div className="dataContent">
+                <p className="dataNumber"><strong>27.548</strong></p>
+                <p>tn CO2 <br/> compensadas</p>
+                </div>
+                
             </div>
         </section>
 
